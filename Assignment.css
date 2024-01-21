@@ -1,0 +1,31 @@
+#container {
+    padding:5px;
+    display:block;
+}
+
+.row{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0.05em;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border: 1px solid black;
+}
+
+.rowval{
+    flex: 1;
+    padding: 1em;
+    display: inline-flex;
+}
+
+#searchbox{
+    width: 90%;
+    padding: auto;
+    font-size: 15px;
+}
+
+.img{
+    max-height: 90%;
+    max-width: 90%;
+}
